@@ -1,0 +1,55 @@
+{
+  "mcpServers": {
+    "william-harvey-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "HARVEY",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "calculate_cardiac_volumetric_output",
+          "description": "Calculates total blood mass pumped per hour proving circulation must be closed loop",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "heart_rate_bpm": {
+                "type": "integer"
+              },
+              "stroke_volume_ml": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "heart_rate_bpm",
+              "stroke_volume_ml"
+            ]
+          }
+        },
+        {
+          "name": "simulate_venous_valve_directionality",
+          "description": "Models unidirectional venous leaflet valves preventing centripetal reflux",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "perfusion_pressure_mmhg": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "perfusion_pressure_mmhg"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
