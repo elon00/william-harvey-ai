@@ -1,0 +1,14 @@
+{
+  "project": "william-harvey-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "EFwW2WAEwQ64MnfKcqWarDQWCFyP77CR5Jg5Mx19F4gC",
+  "vault_account": "6Ty8ZChHiCStJ9SA9NQT9ts9yNr8EhkzFLfZpH54pqtP",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "42Zd7zPt5nW4SJdEr1AZBZ9nbx7UfMfxSYu4s5w3MiLEN7D9k3yCaizJ8gGDd23oAHz7PDDL8QTJWciNftaXyuSN",
+  "account_tx": "2qixrvyrdMu7cE1kzs32Lsd8ET1CzFJ4URA88YubJWqazzLYyF4y5p7xqydGw6C6nE72cm1qGr4rSucGkCs1RGMg",
+  "mint_tx": "wDfSLk7QorVacx8H1dZXq2PneU7jxAoZQJdRwGcunkBXJogbtwXa3h6i8Xn9NdVXWN5bwPq4yHb1tWGSdsAyKo5",
+  "solana_explorer_mint": "https://explorer.solana.com/address/EFwW2WAEwQ64MnfKcqWarDQWCFyP77CR5Jg5Mx19F4gC?cluster=devnet",
+  "timestamp": "2026-10-26 17:02:51 UTC"
+}
